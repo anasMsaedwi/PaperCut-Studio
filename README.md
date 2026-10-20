@@ -7,7 +7,7 @@
   <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white">
   <img alt="Platforms: Windows, macOS, Linux" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey">
   <img alt="GUI: PySide6" src="https://img.shields.io/badge/GUI-PySide6-41CD52?logo=qt&logoColor=white">
-  <a href="https://github.com/YOUR_USERNAME/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/YOUR_USERNAME/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/YOUR_USERNAME/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
 </p>
 
 # PaperCut Studio
