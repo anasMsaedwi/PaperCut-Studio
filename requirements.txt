@@ -1,0 +1,10 @@
+# Core (required)
+PySide6>=6.6
+numpy>=1.26
+opencv-python-headless>=4.8
+Pillow>=10.0
+imageio-ffmpeg>=0.4.9
+
+# Optional background removal (local, no cloud):
+#   python -m pip install "rembg[cpu]"
+# (use "rembg[gpu]" if you have an NVIDIA GPU + CUDA)

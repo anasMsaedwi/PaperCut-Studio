@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test / tool output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Partial exports and local outputs
+*.part
+output/
+exports/
+*.mp4
+*.mov
+
+# rembg / onnx models are downloaded on first use - never commit them
+*.onnx
+.u2net/
+.rembg/
