@@ -10,6 +10,32 @@
   <a href="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
 </p>
 
+-----------------------
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=-gy-wOEYXPA&pp=ygUT2KfZhtizINiz2LnYr9in2YjZig%3D%3D"><img src="https://raw.githubusercontent.com/anasMsaedwi/papercut-studio/main/assets/video-play.png" width="640" alt="Watch the PaperCut Studio video on YouTube: torn-paper cutouts and stop-motion video from any image"></a><br>
+  <sub><b>▶ Watch the video</b> (2½ minutes, opens on YouTube)</sub>
+</p>
+
+<p align="center">
+  <a href="#see">👀 See</a> ·
+  <a href="#features">✨ Features</a> ·
+  <a href="#install">🚀 Install</a> ·
+  <a href="#use">🎬 Use</a> ·
+  <a href="#transition">📜 Transition</a> ·
+  <a href="#fix">🛠 Troubleshoot</a> ·
+  <a href="#credits">🙏 Credits</a> ·
+  <a href="LICENSE">License</a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white">
+  <img alt="Platforms: Windows, macOS, Linux" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey">
+  <img alt="GUI: PySide6" src="https://img.shields.io/badge/GUI-PySide6-41CD52?logo=qt&logoColor=white">
+  <a href="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
+</p>
+
+---------------------
 # PaperCut Studio
 
 Turn any image into a **torn-paper / paper-cutout** picture or a **stop-motion video**.
