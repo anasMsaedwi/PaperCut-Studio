@@ -1,18 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="PaperCut Studio - torn-paper cutouts and stop-motion videos from any image" width="100%">
-</p>
-
-<p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
-  <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white">
-  <img alt="Platforms: Windows, macOS, Linux" src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey">
-  <img alt="GUI: PySide6" src="https://img.shields.io/badge/GUI-PySide6-41CD52?logo=qt&logoColor=white">
-  <a href="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
-</p>
-
------------------------
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=-gy-wOEYXPA&pp=ygUT2KfZhtizINiz2LnYr9in2YjZig%3D%3D"><img src="https://raw.githubusercontent.com/anasMsaedwi/papercut-studio/main/assets/video-play.png" width="640" alt="Watch the PaperCut Studio video on YouTube: torn-paper cutouts and stop-motion video from any image"></a><br>
+  <a href="https://youtu.be/YOUR_VIDEO_ID"><img src="https://raw.githubusercontent.com/anasMsaedwi/papercut-studio/main/assets/video-play.png" width="640" alt="Watch the PaperCut Studio video on YouTube: torn-paper cutouts and stop-motion video from any image"></a><br>
   <sub><b>▶ Watch the video</b> (2½ minutes, opens on YouTube)</sub>
 </p>
 
@@ -35,17 +22,20 @@
   <a href="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/anasMsaedwi/papercut-studio/actions/workflows/ci.yml/badge.svg"></a>
 </p>
 
----------------------
 # PaperCut Studio
 
 Turn any image into a **torn-paper / paper-cutout** picture or a **stop-motion video**.
 Import a picture, cut out the subject, add an irregular paper edge, paper texture and a soft shadow,
 preview it live, and export **PNG** (transparent) or **MP4** - all **100% locally**, no cloud, no uploads.
 
+<a id="see"></a>
+
 <p align="center">
   <img src="assets/demo.gif" alt="A crumpled sheet unfolds to reveal a picture, then crumples away" width="640">
   <br><sub>The built-in unfold / crumple transition (stop-motion, 12 poses per second)</sub>
 </p>
+
+<a id="features"></a>
 
 ## Features
 
@@ -118,6 +108,8 @@ papercut_studio/
 
 ---
 
+<a id="install"></a>
+
 ## Installation
 
 You need **Python 3.11 or newer** (3.11 or 3.12 recommended).
@@ -183,6 +175,8 @@ Linux `sudo apt install ffmpeg`. The app uses the bundled binary first, then fal
 
 ---
 
+<a id="use"></a>
+
 ## Using the app
 
 1. **Open an image** - drag and drop it onto the window, click the *Original* panel, press **Open image...** or `Ctrl+O`.
@@ -239,6 +233,8 @@ paper "lifts" (floating / bounce / reveal).
 
 ---
 
+<a id="transition"></a>
+
 ## Unfold / crumple transition (command line, same engine as the app)
 
 ```bash
@@ -252,6 +248,19 @@ hand-held jitter and wrinkle "boil"). Options: `--size 720|1080`, `--fps 24|30`,
 (new crumple pattern), `--vertical`. 1080p renders in about a minute. It is a 2D shaded simulation
 (facet lighting, creases, warp, shadow), not a physical cloth/paper solver.
 
+## Make the explainer video
+
+`tools/make_promo_video.py` builds a ~2.5 minute tutorial video (intro, problem, features, install, configure,
+open an image, style/animate/export, phone, get it) with the app's own paper engine and **real screen captures**
+of the window:
+
+```bash
+python tools/make_promo_video.py --repo anasMsaedwi/papercut-studio --out promo.mp4 --script docs/VIDEO_SCRIPT.md
+python tools/make_promo_video.py --stills stills/        # one PNG per scene, to preview the look quickly
+```
+It takes about 10 minutes at 1080p. The soundtrack is a quiet synthesised placeholder - replace it with your
+own voice-over (the script with timestamps is written to `docs/VIDEO_SCRIPT.md`).
+
 ---
 
 ## Testing
@@ -264,6 +273,8 @@ QT_QPA_PLATFORM=offscreen python -m unittest tests.test_ui_smoke -v     # GUI wi
 The tests use a synthetic image, so they do not need rembg or any model.
 
 ---
+
+<a id="fix"></a>
 
 ## Troubleshooting
 
@@ -296,6 +307,8 @@ The tests use a synthetic image, so they do not need rembg or any model.
 ## Privacy
 
 All processing is local. The only download is the optional rembg model file, fetched once on first use (you are asked first).
+
+<a id="credits"></a>
 
 ## Credits and third-party software
 
