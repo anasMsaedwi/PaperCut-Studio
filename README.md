@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://youtu.be/-gy-wOEYXPA?si=SLU4kt1Il9bMtj9-"><img src="https://github.com/anasMsaedwi/PaperCut-Studio/blob/main/assets/banner.png" width="640" alt="Watch the PaperCut Studio video on YouTube: torn-paper cutouts and stop-motion video from any image"></a><br>
+  <a href="https://youtu.be/-gy-wOEYXPA?si=SLU4kt1Il9bMtj9-"><img src="https://github.com/anasMsaedwi/PaperCut-Studio/blob/main/assets/banner.png" width="900" alt="Watch the PaperCut Studio video on YouTube: torn-paper cutouts and stop-motion video from any image"></a><br>
   <sub><b>▶ Watch the video</b> (2½ minutes, opens on YouTube)</sub>
 </p>
 
